@@ -1,0 +1,44 @@
+# Локальная конфигурация и секреты
+config/deploy.env
+*.env
+!config/deploy.env.example
+
+# Журналы и артефакты выполнения
+logs/*
+!logs/.gitkeep
+*.log
+state/
+artifacts/
+tmp/
+.cache/
+
+# Скачанный установщик CloudPanel
+installer/
+*.sh.download
+install.sh
+install.sh.*
+
+# Резервные копии и ключи
+*.bak
+*.backup
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.crt
+!docs/**
+
+# Системные и IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Секреты и учётные данные
+secrets/
+credentials/
+*.secret
+**/shadow*
