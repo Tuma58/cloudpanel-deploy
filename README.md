@@ -68,7 +68,7 @@
 На **чистом** Debian 12/13 от root. Скрипт задаст вопросы в консоли (БД, обновления, подтверждение) и выполнит установку:
 
 ```bash
-git clone https://origin.cursor.com/nik-admin/cloudpanel-deploy.git && cd cloudpanel-deploy && sudo bash scripts/install-interactive.sh
+git clone https://github.com/Tuma58/cloudpanel-deploy.git && cd cloudpanel-deploy && sudo bash scripts/install-interactive.sh
 ```
 
 Если репозиторий уже на сервере:
